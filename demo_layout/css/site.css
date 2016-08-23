@@ -1,0 +1,96 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+img {
+	border: none;
+	vertical-align: top;
+}
+
+div#layout {
+	border: 1px solid #a3a2a3;
+	margin: 20px auto;
+	width: 900px;
+}
+
+div#header {
+    padding: 10px;
+}
+
+div.hLeft {
+	float: left;
+}
+
+div.hLeft h1 {
+    margin-bottom: 20px;
+}
+
+div.hRight {
+	float: right;
+}
+
+div.hRight div.hButton {
+	margin-bottom: 37px;
+	text-align: right;
+}
+
+div.hRight ul.hButton li {
+    display: inline;
+}
+
+div.hRight ul.hNav {
+    text-align: right;
+}
+
+div.hRight ul.hNav li {
+    display: inline;
+    border-right: solid 1px #333;
+    padding: 0 5px;
+}
+
+div.hRight ul.hNav li.last {
+    border-right: none;
+    padding-right: 0;
+}
+
+div#gNav {
+	clear: both;
+}
+
+
+div#gNav ul {
+    background: url(../images/bg_gnav.gif) repeat-x;
+    border: 1px solid #000;
+    height: 22px;
+    padding: 12px 0;
+}
+
+div#gNav ul li {
+    border-right: solid 1px #fff;
+    display: inline;
+    padding: 0 10px;
+}
+
+div#gNav ul li.last {
+    border-right: none;
+    padding-right: 0;
+}
+
+
+div#gNav ul li a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div#gNav ul li a:hover {
+    color: yellow;
+}
+
+
+
