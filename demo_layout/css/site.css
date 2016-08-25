@@ -92,5 +92,74 @@ div#gNav ul li a:hover {
     color: yellow;
 }
 
+div#pageBody {
+    padding: 20px 10px;
+}
 
+div#content {
+    float: left;
+    width: 620px;
+}
 
+div#content h2 {
+    border-bottom: 1px solid #666666;
+    font-size: 120%;
+    margin-bottom: 10px;
+}
+
+/*site9*/
+div#content div.newProduct {
+    margin-bottom: 20px;
+}
+/*end site9*/
+
+div#content div.newProduct p.image {
+    float: left;
+    width: 241px;
+}
+
+div#content div.newProduct div {
+    float: right;
+    width: 350px;
+}
+
+div#content div.newProduct div h3 {
+    color: #5870e6;
+    margin-bottom: 10px;
+}
+
+div#content ul.thumbList {
+    background: #f9f8f8;
+    border: 1px solid #ebeaea;
+    clear: both;
+    padding: 10px;
+}
+
+div#content ul.thumbList li {
+    display: inline;
+    padding-right: 8px;
+}
+
+div#sidebar {
+    float: right;
+    width: 240px;
+}
+
+div#footer {
+    clear: both;
+}
+
+/*site9*/
+div#content div.newProduct {
+    zoom: 1;
+}
+
+div#content div.newProduct:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+/*end site9*/
